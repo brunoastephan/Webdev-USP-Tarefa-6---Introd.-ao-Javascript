@@ -1,0 +1,66 @@
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+  background: #f06d06; 
+  color: white;
+  text-align: center;
+}
+
+.body_laranja_claro {
+  background: #f06d06; 
+}
+
+.body_laranja_escuro {
+  background: #ad4e03; 
+}
+
+li {
+  text-align: left;
+}
+
+h4 {
+  text-align: left;
+}
+
+fieldset {
+  margin: auto;
+  font-family: Roboto, Helvetica, sans-serif;
+  border: 2px dashed white;
+  width: 50vw;
+  transition: 0.4s;
+}
+
+fieldset:hover {
+  background-color: rgba(255, 255, 255, .2);
+  padding:5vw;
+  border-radius:5vw;
+}
+
+#noturno_diurno {
+  color: white;
+  border: none;
+  border-radius:5vw;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#noturno_diurno:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#noturno_diurno:active {
+  margin-top: 10px;
+}
+
+.laranja_claro {
+  background-color: #f06d06;
+}
+
+.laranja_escuro {
+  background-color: #ad4e03;
+}
